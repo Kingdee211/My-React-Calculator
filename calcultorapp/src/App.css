@@ -1,0 +1,214 @@
+*{
+  padding: 2%;
+  align-items: center;
+  background-color: #0d0b09;
+}
+
+h2{
+  color: aliceblue;
+  margin-left: 20%;
+  text-decoration: underline 1.5px blue;
+}
+
+.container .cal{
+  background-color: rgb(238, 235, 240);
+  height: 500px;
+  padding: 1.5em;
+  width: 370px;
+  align-items: center;
+  display: block;
+  margin-top: 10px;
+  border-radius: 15px;
+  margin-left: 20%;
+  border: 2px solid white;
+}
+
+textarea{
+  display: block;
+  border-radius: 25px;
+  margin-bottom: 2px;
+  text-align: center;
+  width: 355px;
+  align-content: end;
+  color: aliceblue;
+  background-color: rgb(73, 75, 78);
+}
+
+.row{
+  display: flex;
+  margin-top: 20px;
+  justify-content:space-around;
+  gap: 4rem;
+  padding: 4px;
+  background-color: rgb(244, 247, 248);
+  border-radius: 20px;
+}
+
+.div{
+  padding: 2rem;
+  margin-top: 10px;
+  background-color: rgb(238, 232, 243);
+  border-radius: 24px;
+  border: 2px solid rgb(246, 190, 190);
+  
+}
+
+.num{
+  background-color: rgb(196, 187, 239);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.5px solid rgb(33, 94, 218);
+  font-weight: bolder;
+}
+
+.num:hover{
+  background-color: azure;
+  transition: 0.1s;
+}
+
+.AC{
+  background-color: #f81a1a;
+  padding: 6px;
+  width: 29px;
+  border-radius: 10px;
+  margin-left:0;
+  font-weight: bolder;
+  color: blanchedalmond;
+  border: 1.5px solid rgb(96, 63, 205);
+}
+.AC:hover{
+  background-color: rgb(171, 61, 116);
+  transition: 0.1s;
+}
+
+.DE{
+  background-color: #f81aa3;
+  padding: 6px;
+  border-radius: 11px;
+  margin-left:0;
+  width: 28px;
+  font-weight: bolder;
+  color: blanchedalmond;
+  border: 1.5px solid rgb(96, 63, 205);
+}
+.DE:hover{
+  background-color: rgb(43, 205, 226);
+  transition: 0.1s;
+}
+
+.dot{
+  background-color: #1af898;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left:0;
+  font-weight: bolder;
+  color: rgb(33, 41, 33);
+  border: 1.5px solid rgb(96, 63, 205);
+}
+.dot:hover{
+  background-color: rgb(43, 205, 226);
+  transition: 0.1s;
+}
+.slash:hover{
+  background-color: rgb(43, 205, 226);
+  transition: 0.1s;
+}
+
+.slash{
+  background-color: #403e3e;
+  padding: 9px;
+  border-radius: 10px;
+  margin-left:0;
+  width: 30px;
+  font-weight: bolder;
+  color: blanchedalmond;
+  border: 1.5px solid rgb(96, 63, 205);
+}
+
+.plus{
+  background-color: #525631;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left:0;
+  font-weight: bolder;
+  color: blanchedalmond;
+  border: 1.5px solid rgb(96, 63, 205);
+}
+.plus:hover{
+  background-color: rgb(43, 205, 226);
+  transition: 0.1s;
+}
+
+.minus{
+  background-color: #1abdf8;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left:0;
+  font-weight: bolder;
+  color: rgb(31, 29, 26);
+  border: 1.5px solid rgb(96, 63, 205);
+}
+.minus:hover{
+  background-color: rgb(70, 76, 77);
+  transition: 0.1s;
+}
+
+.times{
+  background-color: #f81a85;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left:0;
+  font-weight: bolder;
+  color: rgb(23, 21, 19);
+  border: 1.5px solid rgb(96, 63, 205);
+}
+.times:hover{
+  background-color: rgb(43, 205, 226);
+  transition: 0.1s;
+}
+
+.equal{
+  background-color: #591af8;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left:0;
+  font-weight: bolder;
+  color: blanchedalmond;
+  border: 1.5px solid rgb(96, 63, 205);
+}
+.equal:hover{
+  background-color: rgb(43, 205, 226);
+  transition: 0.1s;
+}
+
+.name{
+  background-color: #1c1f26;
+  padding: 4px;
+  border-radius: 10px;
+  margin-left:0;
+  font-weight: bolder;
+  color: blanchedalmond;
+  border: 1.5px solid rgb(34, 34, 194);
+}
+.name:hover{
+  background-color: rgb(29, 39, 145);
+  transition: 0.1s;
+}
+
+.zero{
+  background-color: #563636;
+  padding: 7px;
+  border-radius: 10px;
+  margin-left:0;
+  font-weight: bolder;
+  color: blanchedalmond;
+  border: 1.5px solid rgb(96, 63, 205);
+}
+.zero:hover{
+  background-color: rgb(43, 205, 226);
+  transition: 0.1s;
+}
+
+span{
+  color: yellow;
+}
